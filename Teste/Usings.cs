@@ -1,0 +1,13 @@
+global using Microsoft.VisualStudio.TestTools.UnitTesting;
+global using Microsoft.AspNetCore.Mvc.Testing;
+global using Fatura.Domain.Services;
+global using Fatura.Application;
+global using Fatura.Domain.Data;
+global using Fatura.Domain.Models;
+global using Fatura.Domain.Models.Enums;
+global using Moq;
+global using Fatura.Infra.Data;
+global using Newtonsoft.Json;
+global using Fatura.Infra.Data.EntityFramework;
+global using Fatura.Infra.Controllers;
+global using Microsoft.AspNetCore.Mvc;
